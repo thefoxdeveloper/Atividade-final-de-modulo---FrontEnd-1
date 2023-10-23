@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 
 * {
   margin: 0;
@@ -7,7 +7,7 @@
 }
 
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #fdefed;
 }
 
@@ -151,8 +151,8 @@ section h2 {
 
 .container-social > ul > li > a {
   display: block;
-  width: 80px; 
-  height: 80px; 
+  width: 80px;
+  height: 80px;
 
   border-radius: 50%;
   text-decoration: none;
@@ -172,7 +172,9 @@ section h2 {
 }
 
 /* Conhecimentos */
-
+h3 {
+  display: inline;
+}
 .container-conhecimentos {
   padding: 2rem;
   height: 100vh;
@@ -180,9 +182,10 @@ section h2 {
 }
 
 .container-lista {
-  padding-left: 70px;
-  font-weight: 700;
-  list-style: lower-latin;
+  padding-left: 0px;
+  font-weight: 400;
+  list-style: ;
+  list-style-position: inside;
   max-width: 800px;
   position: absolute;
   top: 50%;
